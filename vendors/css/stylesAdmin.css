@@ -5075,6 +5075,10 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
+.list-group > a > i {
+  padding-right: 5px;
+}
+
 .list-group-numbered {
   list-style-type: none;
   counter-reset: section;
