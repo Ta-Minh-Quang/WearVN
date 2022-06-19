@@ -1,0 +1,446 @@
+body {
+  background: #fff;
+  font-size: 14px;
+}
+
+* {
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0 !important;
+  margin: 0;
+  line-height: 1.7;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+
+body,
+input,
+textarea,
+button,
+select {
+  line-height: 1.7;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+/* .row {
+      margin-right: -15px;
+      margin-left: -15px;
+  } */
+
+ul {
+  list-style: none outside;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  z-index: 1000;
+  float: left;
+  width: 100%;
+}
+
+.topbar {
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  line-height: 36px;
+  background: #000;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.topbar-left {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.topbar .topbar-left li:first-child {
+  margin-right: 5px;
+}
+
+.topbar .topbar-left li {
+  font-size: 13px;
+  display: inline-block;
+}
+
+.topbar .topbar-left li p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.topbar .topbar-right {
+  font-size: 13px;
+}
+
+.topbar .topbar_right li:last-child a {
+  margin-right: 0px;
+}
+
+.topbar .topbar_right li a {
+  color: #fff;
+  font-size: 13px;
+  margin: 0 0 0 20px;
+}
+
+.topbar .topbar_right li a:hover {
+  color: #ffba00;
+}
+
+.list-inline li {
+  float: left;
+  margin: 0;
+}
+
+.a-right {
+  text-align: right !important;
+}
+
+.d-list > div:first-child {
+  margin: 0;
+}
+
+.d-list > div {
+  position: relative;
+  margin-right: 15px;
+}
+
+.f-right {
+  float: right !important;
+}
+
+.a-center {
+  text-align: center !important;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+
+.list-inline {
+  *zoom: 1;
+}
+
+.mb-2 {
+  margin-right: 3px;
+}
+
+/* Menu user */
+
+.ul_account {
+  position: absolute;
+  top: 35px;
+  right: 57px;
+  min-width: 240px;
+  border: 1px solid #efefef;
+  background: #fff;
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 6px 12px 0 rgb(0 0 0 / 18%);
+  z-index: 999;
+  border-radius: 3px;
+  display: none;
+}
+
+.login_content:hover .ul_account {
+  display: block;
+}
+
+.topbar .topbar-right li.login_content ul li:nth-child(1) {
+  background: #ffba00;
+  margin-bottom: 10px;
+}
+
+.topbar .topbar-right li.login_content ul li {
+  float: none;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.topbar .topbar-right li.login_content ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  color: #080000;
+  margin: 0;
+}
+
+.topbar .topbar_right li.login_content ul li:nth-child(1) a {
+  color: #fff;
+}
+
+.topbar .topbar_right li a {
+  color: #fff;
+  font-size: 13px;
+  margin: 0 0 0 20px;
+}
+
+.topbar .topbar_right li.login_content ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+
+  margin: 0;
+}
+
+.topbar .topbar-right li.login_content ul li:nth-child(2) {
+  background: #e1e1e1;
+  margin-bottom: 10px;
+}
+/* Cau noi */
+.topbar .topbar-right li.login_content ul:before {
+  border: 9px solid transparent;
+  border-bottom: 9px solid #fff;
+  bottom: 100%;
+  right: 104px;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Header - logo -search */
+.header-main {
+  display: flex;
+  width: 100%;
+}
+.mid-header {
+  padding: 6px 0px;
+  background: #000;
+}
+
+.f-left {
+  float: left !important;
+}
+
+.wid_100 {
+  width: 100%;
+}
+
+.mid-header .content_header {
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 2.85714em;
+  margin-top: 0px;
+}
+
+.mid-header .content_header .header-left {
+  float: left;
+  width: 100%;
+}
+
+.mid-header .content_header .header-left .header_search {
+  margin: 14px 0 5px 0;
+  position: relative;
+}
+
+.mid-header .content_header .header-left .header_search .search-bar {
+  background: #fff;
+  margin-bottom: 0px;
+  display: table;
+  border-collapse: separate;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+.mid-header
+  .content_header
+  .header-left
+  .header_search
+  .search-bar
+  .input-group-field {
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 0;
+  height: 40px;
+  padding: 0px 25px 0 20px;
+  font-size: 13px;
+  max-width: 100%;
+  display: block;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+}
+
+.mid-header
+  .content_header
+  .header-left
+  .header_search
+  .search-bar
+  .input-group-btn {
+  position: relative;
+  white-space: nowrap;
+  width: 1%;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.mid-header
+  .content_header
+  .header-left
+  .header_search
+  .search-bar
+  .input-group-btn
+  .icon-fallback-text {
+  background: #ffba00;
+  color: #fff;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0px 25px;
+  margin-right: 3px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.no-padding-left {
+  padding-left: 0px !important;
+}
+
+.mid-header .content_header .header-right {
+  position: relative;
+  float: right;
+}
+
+.mid-header .content_header .header-right .hotline_dathang {
+  width: 165px;
+  float: left;
+  padding: 15px 0;
+}
+
+.mid-header .content_header .header-right .hotline_dathang .icon_hotline {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  margin-right: 10px;
+  padding-left: 2px;
+  border: 2px solid #fff;
+}
+
+.mid-header .content_header .header-right .hotline_dathang .icon_hotline .fa {
+  font-size: 16px;
+}
+
+.mid-header .content_header .header-right .hotline_dathang .content_hotline {
+  line-height: 17px;
+  margin-top: 4px;
+  padding-left: 40px;
+}
+
+.mid-header .content_header .header-right .hotline_dathang .content_hotline a {
+  color: #fff;
+  font-weight: bold;
+  display: block;
+}
+
+.mid-header
+  .content_header
+  .header-right
+  .hotline_dathang
+  .content_hotline
+  span {
+  color: #ffdada;
+  font-size: 12px;
+}
+
+.f-right {
+  float: right !important;
+}
+
+.mini-cart .heading-cart {
+  float: left;
+  padding: 15px 0;
+}
+
+.mini-cart .heading-cart .icon_hotline {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  border: 2px solid #fff;
+}
+
+.content_cart_header {
+  line-height: 18px;
+  padding-left: 10px;
+  margin-top: 4px;
+  float: right;
+}
+
+.mini-cart .heading-cart .bg_cart {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mini-cart .heading-cart .bg_cart .text-giohang {
+  font-size: 12px;
+  color: #ffdada;
+  font-weight: 400;
+  display: block;
+}
+/* Infomation Gio hang */
+
+.top-cart-content {
+  right: 0px;
+  top: 65px;
+  display: none;
+  position: absolute;
+  background: #fff;
+  padding: 0;
+  text-align: left;
+  box-shadow: 0 0 15px -5px rgb(0 0 0 / 40%);
+  z-index: 10000;
+}
+
+ul#cart-sidebar {
+  padding: 20px;
+  margin: 0;
+  max-height: 625px;
+  min-width: 330px;
+}
+
+ul#cart-sidebar .no-item {
+  height: 40px;
+}
+
+ul#cart-sidebar .no-item p {
+  margin: 0px;
+  line-height: 3;
+}
