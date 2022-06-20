@@ -789,6 +789,8 @@ progress {
 
 .offset-1 {
   margin-left: 8.33333333%;
+  letter-spacing: 0.1rem;
+  font-size: 3.8rem;
 }
 
 .offset-2 {
@@ -2487,8 +2489,7 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -4555,6 +4556,7 @@ textarea.form-control-lg {
   flex: 1 1 auto;
   padding: 1rem 1rem;
   font-weight: 600;
+  min-height: 5rem;
 }
 
 .card-title {
